@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pastebin 📝</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <h1>📝 Pastebin</h1>
+    <p class="sub">Pega texto o código y obtén un enlace para compartirlo.</p>
+
+    <form method="post" action="/create">
+      <textarea name="text" rows="12" placeholder="Pega aquí tu texto o código..." autofocus></textarea>
+      <button type="submit">Crear enlace</button>
+    </form>
+  </main>
+</body>
+</html>
