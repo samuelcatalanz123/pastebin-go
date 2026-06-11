@@ -1,5 +1,9 @@
 # Pastebin (Go)
 
+[![CI](https://github.com/samuelcatalanz123/pastebin-go/actions/workflows/ci.yml/badge.svg)](https://github.com/samuelcatalanz123/pastebin-go/actions/workflows/ci.yml)
+![Go](https://img.shields.io/badge/Go-1.26-00ADD8?logo=go&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 App web para pegar texto o código y obtener un **enlace único** para compartirlo
 (como Pastebin o GitHub Gist). Hecha en **Go**.
 
